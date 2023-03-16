@@ -12,6 +12,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
@@ -32,6 +37,6 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "core-js": "^3.29.1"
   }
 }
